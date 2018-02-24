@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: dq6z7ZJ/wBUwSsXJg5ZmqMyvghusNWgh9n32ugEI7/n7Yk+7FtDd/KY+gw8AKRmxi+B2bDO6lBKMDgImjxXDMo469iByA2TreYzLpksVI23kGwizuhCw7+kGQPZzctLQMGQtaw0zv3ZQb7xi6WYqFkDUDaMlKCdoazTWigLie5sxxCEc5j/3a9ohWHf2RXfRhums6M/WQ0ikwJ66M4sesYJJ8mUc18pTmxelaDOI6dj5w4yRA0QzYL/54EFG6wCPNpM7QYEEPBUiujp02PPvmkiIsnqGU59fEZBlMxIuX4Vgu/CglcKdDWNz2xCO79PEvOtq8nCVXEMnApvesg26O1T2rjUz7MjlOdG+oBqM7qn9hxkMiKK8mQJUcNKXRXFUYcEye805NSwPmT5rw9ozsoge9rg0nAQlKaLljFmcP21ob2yBX7ASMf++6CXdqWAe0Gt5Pi05fB3RfsiEfk8ETxfWkmeqEabbGEw55gYLhF/kRr7szD7D03XVvM2tOKYAW5+r4spTMrTmt1PQLv9y7AGuHOgR+Cyz71O9yGsvtmGlk9B1MDuYODLbbQGn27G4mf1ovT4y9GsV9oEpiM9fxFuiRUr8GV60kRI07kIoIbz86FEoOKVWdQvFkHlZICdtS92Qf9NNPKCQNZ0xriXPAcszo8SppMZN/gjd52Hi720=
+  app: secret-depths-78836
+  on:
+    repo: tspeaks/next-offer
